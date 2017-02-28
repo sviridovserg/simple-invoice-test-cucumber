@@ -1,4 +1,4 @@
-# simple-invoice-test
+# simple-invoice-test-cucumber
 
 Selenium tests for Simple Invoice appliation using [Webdriverio](http://webdriver.io), [Cucumber](https://cucumber.io/).
 
