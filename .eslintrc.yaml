@@ -15,6 +15,7 @@ parserOptions:
 root: true
 
 rules:
+  eol-last: 0
   comma-dangle:
     - 'error'
     - arrays: 'always-multiline'
@@ -38,12 +39,13 @@ rules:
         - 'Given'
         - 'When'
         - 'Then'
+        - 'After'
   require-jsdoc:
-    - 'error'
+    - 1
     - require:
-        FunctionDeclaration: true
-        MethodDefinition: true
-        ClassDeclaration: true
+        FunctionDeclaration: false
+        MethodDefinition: false
+        ClassDeclaration: false
   strict: 'off'
   valid-jsdoc:
     - 'error'
